@@ -215,7 +215,7 @@ While CodeAnt AI offers an impressive dashboard, testing revealed several critic
 
 **CodeAnt AI Critical Limitations:**
 
-- ❌ Only ~30% auto-fix capability
+- ❌ limited auto-fix capability
 - ❌ Broken links leading to 404 errors
 - ❌ Requires extensive manual intervention
 - ❌ Cannot implement from PR comments
@@ -230,7 +230,7 @@ Comprehensive comparison across all critical dimensions of automated code review
 | Feature | CodeAnt AI | Claude Code |
 |---------|------------|-------------|
 | Issue Detection | ✅ Excellent (721 issues detected) | ✅ Comprehensive with context |
-| Auto-Fix Capability | ❌ ~30% only | ✅ 100% implementation |
+| Auto-Fix Capability | ❌ limited | ✅ 100% implementation |
 | Code Implementation | ❌ Suggestions only | ✅ Full working code |
 | PR Integration | ❌ Dashboard only, no PR comments changing | ✅ Direct PR comments with code |
 | Manual Intervention | ❌ Extensive (file selection, review, merge) | ✅ Minimal (review & approve) |
@@ -261,7 +261,7 @@ Based on 24+ screenshots of evidence across 5 critical categories, the analysis 
 
 - ✅ Excellent for issue detection and visibility
 - ✅ Good dashboard for understanding code quality
-- ❌ Only ~30% auto-fix capability
+- ❌ limited auto-fix capability
 - ❌ Broken links leading to 404 errors
 - ❌ Cannot implement fixes from PR comments
 - ❌ Requires extensive manual intervention
