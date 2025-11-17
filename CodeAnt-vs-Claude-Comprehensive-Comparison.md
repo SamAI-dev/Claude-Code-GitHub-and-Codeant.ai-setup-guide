@@ -155,7 +155,7 @@ While CodeAnt AI offers an impressive dashboard, testing revealed several critic
 
 ![CodeAnt AI Antipatterns with Limited Auto-Fix](images/codeant-antipatterns-autofix.png)
 
-*Screenshot shows: CodeAnt AI antipatterns list displaying mixed 'Autofix' and 'NA' (Not Available) badges, demonstrating that only approximately 30% of issues have auto-fix capability*
+*Screenshot shows: CodeAnt AI antipatterns list displaying mixed 'Autofix' and 'NA' (Not Available), demonstrating that only some issues have auto-fix capability*
 
 **Key Evidence**: Of 51 antipatterns detected (0 Blocker, 2 Critical, 48 Others), limited **'Autofix' availability**. Some of them are (Not Available), requiring manual intervention.
 
