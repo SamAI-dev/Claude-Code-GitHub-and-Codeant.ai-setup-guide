@@ -34,9 +34,13 @@ This section compares how both tools review pull requests, analyze code quality,
 
 CodeAnt AI provides a comprehensive dashboard with issue detection but requires manual intervention for implementation.
 
+**CodeAnt AI Dashboard Overview**
+
 ![CodeAnt AI Dashboard Overview](images/codeant_dash.png)
 
 *Screenshot shows: CodeAnt AI main dashboard interface displaying total issues count, scan center overview, and navigation menu*
+
+**CodeAnt AI Issue Detection Interface**
 
 ![CodeAnt AI Issue Detection Interface](images/codeantissues.png)
 
@@ -46,17 +50,25 @@ CodeAnt AI provides a comprehensive dashboard with issue detection but requires 
 
 Claude Code provides actionable code implementations directly in PR comments, ready for production use.
 
+**Claude Code PR Review - Initial Comment**
+
 ![Claude Code PR Review - Initial Comment](images/claudeprreview1.png)
 
 *Screenshot shows: Claude's initial PR review comment with code analysis and actionable suggestions in GitHub PR interface*
+
+**Claude Code PR Review - Detailed Analysis**
 
 ![Claude Code PR Review - Detailed Analysis](images/claudeprreview2.png.png)
 
 *Screenshot shows: Claude's detailed line-by-line code review with specific recommendations and code improvements*
 
+**Claude Code Implementation Example**
+
 ![Claude Code Implementation Example](images/claude_implemantation.png)
 
 *Screenshot shows: Complete production-ready code implementation with error handling, validation, and security best practices*
+
+**Claude Code Evidence-Based Analysis**
 
 ![Claude Code Evidence-Based Analysis](images/claude_evidence_base.png)
 
@@ -77,15 +89,21 @@ Comparing security vulnerability detection, compliance checking, and secure codi
 
 ### 2.1 CodeAnt AI Security Features
 
+**CodeAnt AI Security Scan Results**
+
 ![CodeAnt AI Security Scan Results](images/codeant-security-scan.png)
 
 *Screenshot shows: CodeAnt AI security scan results page displaying detected security vulnerabilities with severity levels and file locations*
+
+**CodeAnt AI Vulnerability Dashboard**
 
 ![CodeAnt AI Vulnerability Dashboard](images/codeant-vulnerability-dashboard.png)
 
 *Screenshot shows: CodeAnt AI vulnerability dashboard with visual distribution charts showing code security and quality issue breakdown by category*
 
 ### 2.2 Claude Code Security Implementation
+
+**Claude Code Secure Implementation Example**
 
 ![Claude Code Secure Implementation Example](images/claude-secure-code.png)
 
@@ -106,15 +124,21 @@ Evaluating the quality, completeness, and production-readiness of generated code
 
 ### 3.1 CodeAnt AI Implementation Approach
 
+**CodeAnt AI Code Suggestions Panel**
+
 ![CodeAnt AI Code Suggestions Panel](images/codeant-suggestions.png)
 
 *Screenshot shows: CodeAnt AI suggestions interface displaying code recommendations that require manual review and implementation by developers*
+
+**CodeAnt AI Manual Fix Workflow**
 
 ![CodeAnt AI Manual Fix Workflow](images/codeant-manual.png)
 
 *Screenshot shows: CodeAnt AI manual fix process requiring file selection, review of suggested changes, and manual application of fixes*
 
 ### 3.2 Claude Code Implementation Quality
+
+**Claude Code Complete Implementation Example**
 
 ![Claude Code Complete Implementation Example](images/claude-complete-implementation.png)
 
@@ -135,6 +159,8 @@ While CodeAnt AI offers an impressive dashboard, testing revealed several critic
 
 ### 4.1 Scan Center Overview
 
+**CodeAnt AI Scan Center Dashboard**
+
 ![CodeAnt AI Scan Center Dashboard](images/codeant-scan-center.png)
 
 *Screenshot shows: CodeAnt AI scan center dashboard displaying comprehensive metrics: Total Issues: 721 | Code Security: 448 | Code Quality: 67 | Antipatterns: 51 | Duplicate Code: 206*
@@ -143,15 +169,21 @@ While CodeAnt AI offers an impressive dashboard, testing revealed several critic
 
 ### 4.2 Duplicate Code Detection
 
+**CodeAnt AI Duplicate Code Detection - First View**
+
 ![CodeAnt AI Duplicate Code Detection - First View](images/codeant-duplicate-1.png)
 
 *Screenshot shows: CodeAnt AI duplicate code detection interface displaying 206 duplicated lines with file paths and line number references*
+
+**CodeAnt AI Duplicate Code Detection - Expanded View**
 
 ![CodeAnt AI Duplicate Code Detection - Expanded View](images/codeant-duplicate-2.png)
 
 *Screenshot shows: CodeAnt AI expanded duplicate code view with detailed severity classifications and additional duplicate code pattern matches*
 
 ### 4.3 CRITICAL FINDING #1: Limited Auto-Fix
+
+**CodeAnt AI Antipatterns with Limited Auto-Fix**
 
 ![CodeAnt AI Antipatterns with Limited Auto-Fix](images/codeant-antipatterns-autofix.png)
 
@@ -161,9 +193,13 @@ While CodeAnt AI offers an impressive dashboard, testing revealed several critic
 
 ### 4.4 Manual Selection Required
 
+**CodeAnt AI Fix Antipatterns Modal - Empty State**
+
 ![CodeAnt AI Fix Antipatterns Modal - Empty State](images/codeant-modal-initial.png)
 
 *Screenshot shows: CodeAnt AI fix antipatterns modal in initial empty state, requiring user to manually select files before any fixes can be applied*
+
+**CodeAnt AI Fix Antipatterns Modal - File Selection**
 
 ![CodeAnt AI Fix Antipatterns Modal - File Selection](images/codeant-modal-selection.png)
 
@@ -171,9 +207,13 @@ While CodeAnt AI offers an impressive dashboard, testing revealed several critic
 
 ### 4.5 Dashboard-Only PR Creation
 
+**CodeAnt AI Pull Request Created from Dashboard**
+
 ![CodeAnt AI Pull Request Created from Dashboard](images/codeant-pr-dashboard.png)
 
 *Screenshot shows: GitHub pull request created by CodeAnt AI from dashboard, titled 'CodeAnt AI: Made Changes to the file', demonstrating dashboard-only PR creation workflow*
+
+**CodeAnt AI Bot Comment in Pull Request**
 
 ![CodeAnt AI Bot Comment in Pull Request](images/codeant-bot-comment.png.png)
 
@@ -183,11 +223,15 @@ While CodeAnt AI offers an impressive dashboard, testing revealed several critic
 
 ### 4.6 Minimal PR Engagement
 
+**CodeAnt AI Analytics Dashboard**
+
 ![CodeAnt AI Analytics Dashboard](images/codeant-analytics.png)
 
 *Screenshot shows: CodeAnt AI analytics dashboard displaying review metrics with 'No. of Comments: 0', indicating minimal actual PR engagement and interaction*
 
 ### 4.7 CRITICAL FINDING #2: Broken Links (404 Error)
+
+**CodeAnt AI Broken Link - GitHub 404 Error**
 
 ![CodeAnt AI Broken Link - GitHub 404 Error](images/codeant-404-error.png)
 
@@ -197,9 +241,13 @@ While CodeAnt AI offers an impressive dashboard, testing revealed several critic
 
 ### 4.8 Manual Review & Save Required
 
+**CodeAnt AI Suggestions Interface with Save Button**
+
 ![CodeAnt AI Suggestions Interface with Save Button](images/codeant-suggestions-interface.png)
 
 *Screenshot shows: CodeAnt AI suggestions interface displaying code diff with proposed changes and a 'Save' button, requiring manual review and approval before applying fixes*
+
+**CodeAnt AI Files Processed Status**
 
 ![CodeAnt AI Files Processed Status](images/codeant-files-processed.png)
 
